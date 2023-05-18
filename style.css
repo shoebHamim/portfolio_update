@@ -110,6 +110,9 @@ section{
 
 /* responsiveness */
 @media screen and (max-width: 600px) {
+    .intro{
+        /* flex-direction: column-reverse; */
+    }
     .intro-image{
         margin: 0;
     }
@@ -133,6 +136,13 @@ section{
     .headline{
         font-size: 2.2rem;
     }
+    .intro-description{
+        margin: 0 4rem;
+        
+        
+ 
+    }
+
 
     
 }
